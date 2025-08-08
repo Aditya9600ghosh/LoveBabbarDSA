@@ -21,14 +21,20 @@ int main(){
     cout<<endl;
 
     cout<<"Print the First index element = "<<dq.at(1)<<endl;
+
     cout<<"Front = "<<dq.front()<<endl;
     cout<<"Rear = "<<dq.back()<<endl;
 
     cout<<"Check DeQueue is empty or not : "<<dq.empty()<<endl;
 
+
+
+
     // Erase Function in C++ complexity O(n)
     cout<<"Before Erase Size = "<<dq.size()<<endl;
+
     dq.erase(dq.begin()+1); // delete the index 1 element
+    
     cout<<"After Erase Size = "<<dq.size()<<endl;
     return 0;
 }
